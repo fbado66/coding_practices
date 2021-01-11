@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type='text/javascript'>
+
+   
+
+    let liters = prompt('Enter the no of Liters to fill the thank')
+    let distance = prompt('Enter the distance covered')
+    if (distance <= 0){
+        alert('Is an Invalid Input')
+    } else {
+    let comsuption = (Number(liters)/Number(distance)*100)
+    let distanceGiven = Number(distance) * 0.6214 
+    let fuelConsumption = Number(liters)*0.2642
+    let result = (distanceGiven / fuelConsumption).toFixed(2)
+    alert(result)
+    }
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
