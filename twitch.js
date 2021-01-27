@@ -106,11 +106,6 @@ directions2 = ['EAST', 'NORTH', "WEST", "SOUTH"]
 
 // console.log(directionReduction(directions2))
 
-
-
-
-
-
 function directionReduction(directions) {
 	let oppositeDirections = {
 		NORTH: "SOUTH",
